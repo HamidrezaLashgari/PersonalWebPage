@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-image: url('./images/linux-programmer-pixel-art-4k-ld.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #1f1925;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 2rem;
+  color: #4ea959;
+  
+}
+
+.main-menu‌ {
+  margin: 0;
+  padding: 0 0 0 0;
+}
+
+.main-menu__items {
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0;
+  margin: 560px 0;
+}
+
+.main-menu__items a {
+  text-decoration: none;
+  display: block;
+  margin: 0.5rem 0rem 0rem 0rem;
+  color: #4ea959;
+}
+
+.main-menu__items a:hover {
+  color: #5d5d5d;
+}
+
+.about-me {
+  padding: 1rem;
+  margin: 0 0;
+  box-shadow: 1px 0px 20px -5px #1f1925;
+}
+
+.hr {
+  width: 100px;
+  color: #5d5d5d;
+}
+
+.about-me__title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0 0;
+  padding: 0 0 2rem 0;
+}
+
+.skill-section {
+}
+
+.skills {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.skill__list {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.skill__items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.experience {
+  box-shadow: 1px 0px 20px -5px #1f1925;
+  padding: 1rem 1rem;
+}
+
+.experience-section {
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.experience__title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0 0;
+  padding: 0 0 2rem 0;
+}
+
+.experience__time {
+  font-size: 0.7rem;
+  padding: 0;
+  margin: 0;
+}
+
+.experience__position {
+  margin: 0;
+  padding: 0 0;
+}
+
+.experience__items {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.education-section {
+  margin: 2rem 0;
+}
+.education {
+  box-shadow: 1px 0px 20px -5px #1f1925;
+  padding: 1rem 1rem;
+}
+
+.education__title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0 0;
+  padding: 0 0 2rem 0;
+}
+
+.university-name {
+  display: inline-block;
+}
+
+.degree {
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.degree-title {
+  font-size: 0.9rem;
+}
+
+.cart2 {
+  padding: 1rem 0;
+}
+
+.main-footer {
+    background: #1f1925;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.github{
+    padding: 1rem;
+}
+
+.github a{
+    color: #4ea959;
+}
+
+.linkdin {
+    padding: 1rem;
+
+}
+
+
+.linkdin a{
+    color: #4ea959;
+}
